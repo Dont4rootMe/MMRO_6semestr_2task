@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+matplotlib = "*"
+seaborn = "*"
+opencv-python = "*"
+tqdm = "*"
+scikit-learn = "*"
+jax-metal = "==0.0.5"
+jaxlib = "*"
+scipy = "*"
+pandas = "*"
+torch = "*"
+torchvision = "*"
+wandb = "*"
+cvxpy = "*"
+tabulate = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"

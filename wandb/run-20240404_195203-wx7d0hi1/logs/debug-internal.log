@@ -1,0 +1,222 @@
+2024-04-04 19:52:04,110 INFO    StreamThr :60326 [internal.py:wandb_internal():86] W&B internal server running at pid: 60326, started at: 2024-04-04 19:52:04.110382
+2024-04-04 19:52:04,111 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: status
+2024-04-04 19:52:04,111 INFO    WriterThread:60326 [datastore.py:open_for_write():87] open: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/Pracx/MMRO/MMRO-neoclassic/homework/HW2/wandb/run-20240404_195203-wx7d0hi1/run-wx7d0hi1.wandb
+2024-04-04 19:52:04,112 DEBUG   SenderThread:60326 [sender.py:send():379] send: header
+2024-04-04 19:52:04,112 DEBUG   SenderThread:60326 [sender.py:send():379] send: run
+2024-04-04 19:52:04,746 INFO    SenderThread:60326 [dir_watcher.py:__init__():211] watching files in: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/Pracx/MMRO/MMRO-neoclassic/homework/HW2/wandb/run-20240404_195203-wx7d0hi1/files
+2024-04-04 19:52:04,747 INFO    SenderThread:60326 [sender.py:_start_run_threads():1124] run started: wx7d0hi1 with start time 1712249523.256708
+2024-04-04 19:52:04,751 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: check_version
+2024-04-04 19:52:04,751 DEBUG   SenderThread:60326 [sender.py:send_request():406] send_request: check_version
+2024-04-04 19:52:05,117 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: run_start
+2024-04-04 19:52:05,118 DEBUG   HandlerThread:60326 [system_info.py:__init__():26] System info init
+2024-04-04 19:52:05,118 DEBUG   HandlerThread:60326 [system_info.py:__init__():41] System info init done
+2024-04-04 19:52:05,118 INFO    HandlerThread:60326 [system_monitor.py:start():194] Starting system monitor
+2024-04-04 19:52:05,119 INFO    SystemMonitor:60326 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-04 19:52:05,119 INFO    HandlerThread:60326 [system_monitor.py:probe():214] Collecting system info
+2024-04-04 19:52:05,120 INFO    SystemMonitor:60326 [interfaces.py:start():190] Started cpu monitoring
+2024-04-04 19:52:05,120 DEBUG   HandlerThread:60326 [system_info.py:probe():150] Probing system
+2024-04-04 19:52:05,121 INFO    SystemMonitor:60326 [interfaces.py:start():190] Started disk monitoring
+2024-04-04 19:52:05,124 INFO    SystemMonitor:60326 [interfaces.py:start():190] Started gpuapple monitoring
+2024-04-04 19:52:05,125 INFO    SystemMonitor:60326 [interfaces.py:start():190] Started memory monitoring
+2024-04-04 19:52:05,126 INFO    SystemMonitor:60326 [interfaces.py:start():190] Started network monitoring
+2024-04-04 19:52:05,126 DEBUG   HandlerThread:60326 [gitlib.py:_init_repo():56] git repository is invalid
+2024-04-04 19:52:05,127 DEBUG   HandlerThread:60326 [system_info.py:probe():198] Probing system done
+2024-04-04 19:52:05,127 DEBUG   HandlerThread:60326 [system_monitor.py:probe():223] {'os': 'macOS-14.4.1-arm64-arm-64bit', 'python': '3.11.5', 'heartbeatAt': '2024-04-04T16:52:05.121356', 'startedAt': '2024-04-04T16:52:03.253609', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'Artems-MacBook-Pro.local', 'username': 'artemon', 'executable': '/Users/artemon/.local/share/virtualenvs/HW2-5NlrkVrZ/bin/python', 'cpu_count': 10, 'cpu_count_logical': 10, 'cpu_freq': {'current': 3228, 'min': 600, 'max': 3228}, 'cpu_freq_per_core': [{'current': 3228, 'min': 600, 'max': 3228}], 'disk': {'/': {'total': 926.3517189025879, 'used': 9.539703369140625}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 32.0}}
+2024-04-04 19:52:05,127 INFO    HandlerThread:60326 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-04 19:52:05,127 INFO    HandlerThread:60326 [system_monitor.py:probe():227] Publishing system info
+2024-04-04 19:52:05,127 INFO    HandlerThread:60326 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-04 19:52:05,128 DEBUG   SenderThread:60326 [sender.py:send():379] send: files
+2024-04-04 19:52:05,128 INFO    SenderThread:60326 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-04 19:52:05,202 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-04 19:52:05,203 DEBUG   SenderThread:60326 [sender.py:send_request():406] send_request: python_packages
+2024-04-04 19:52:05,203 DEBUG   SenderThread:60326 [sender.py:send():379] send: telemetry
+2024-04-04 19:52:05,204 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-04 19:52:05,204 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-04 19:52:05,204 DEBUG   SenderThread:60326 [sender.py:send_request():406] send_request: stop_status
+2024-04-04 19:52:05,414 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: pause
+2024-04-04 19:52:05,414 INFO    HandlerThread:60326 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-04 19:52:05,414 INFO    HandlerThread:60326 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-04 19:52:05,414 INFO    HandlerThread:60326 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-04 19:52:05,414 DEBUG   SystemMonitor:60326 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-04 19:52:05,414 INFO    HandlerThread:60326 [interfaces.py:finish():202] Joined disk monitor
+2024-04-04 19:52:05,414 DEBUG   SystemMonitor:60326 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-04 19:52:05,414 DEBUG   SystemMonitor:60326 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-04 19:52:05,753 INFO    Thread-37 :60326 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/Pracx/MMRO/MMRO-neoclassic/homework/HW2/wandb/run-20240404_195203-wx7d0hi1/files/requirements.txt
+2024-04-04 19:52:05,753 INFO    Thread-37 :60326 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/Pracx/MMRO/MMRO-neoclassic/homework/HW2/wandb/run-20240404_195203-wx7d0hi1/files/wandb-metadata.json
+2024-04-04 19:52:05,753 INFO    Thread-37 :60326 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/Pracx/MMRO/MMRO-neoclassic/homework/HW2/wandb/run-20240404_195203-wx7d0hi1/files/output.log
+2024-04-04 19:52:06,130 INFO    HandlerThread:60326 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-04-04 19:52:06,130 INFO    HandlerThread:60326 [interfaces.py:finish():202] Joined memory monitor
+2024-04-04 19:52:06,130 INFO    HandlerThread:60326 [interfaces.py:finish():202] Joined network monitor
+2024-04-04 19:52:06,130 DEBUG   SenderThread:60326 [sender.py:send():379] send: telemetry
+2024-04-04 19:52:06,130 DEBUG   SenderThread:60326 [sender.py:send():379] send: stats
+2024-04-04 19:52:06,173 INFO    wandb-upload_0:60326 [upload_job.py:push():131] Uploaded file /var/folders/hk/5434dpv95nl2rxl497d7c0lm0000gn/T/tmpr0emz7m6wandb/04wsa43r-wandb-metadata.json
+2024-04-04 19:52:07,760 INFO    Thread-37 :60326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/Pracx/MMRO/MMRO-neoclassic/homework/HW2/wandb/run-20240404_195203-wx7d0hi1/files/output.log
+2024-04-04 19:52:09,142 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: status_report
+2024-04-04 19:52:14,155 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: status_report
+2024-04-04 19:52:16,965 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: resume
+2024-04-04 19:52:16,966 INFO    HandlerThread:60326 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-04 19:52:16,966 INFO    HandlerThread:60326 [system_monitor.py:start():194] Starting system monitor
+2024-04-04 19:52:16,966 INFO    SystemMonitor:60326 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-04 19:52:16,966 INFO    SystemMonitor:60326 [interfaces.py:start():190] Started cpu monitoring
+2024-04-04 19:52:16,966 INFO    SystemMonitor:60326 [interfaces.py:start():190] Started disk monitoring
+2024-04-04 19:52:16,969 INFO    SystemMonitor:60326 [interfaces.py:start():190] Started gpuapple monitoring
+2024-04-04 19:52:16,970 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: pause
+2024-04-04 19:52:16,971 INFO    HandlerThread:60326 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-04 19:52:16,971 INFO    HandlerThread:60326 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-04 19:52:16,972 INFO    SystemMonitor:60326 [interfaces.py:start():190] Started memory monitoring
+2024-04-04 19:52:16,972 DEBUG   SystemMonitor:60326 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-04 19:52:16,972 DEBUG   SystemMonitor:60326 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-04 19:52:16,972 DEBUG   SystemMonitor:60326 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-04 19:52:16,973 INFO    HandlerThread:60326 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-04 19:52:16,973 INFO    HandlerThread:60326 [interfaces.py:finish():202] Joined disk monitor
+2024-04-04 19:52:17,962 INFO    HandlerThread:60326 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-04-04 19:52:17,962 INFO    HandlerThread:60326 [interfaces.py:finish():202] Joined memory monitor
+2024-04-04 19:52:17,963 DEBUG   SenderThread:60326 [sender.py:send():379] send: stats
+2024-04-04 19:52:19,973 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: status_report
+2024-04-04 19:52:20,204 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-04 19:52:20,204 DEBUG   SenderThread:60326 [sender.py:send_request():406] send_request: stop_status
+2024-04-04 19:52:20,208 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: resume
+2024-04-04 19:52:20,208 INFO    HandlerThread:60326 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-04 19:52:20,208 INFO    HandlerThread:60326 [system_monitor.py:start():194] Starting system monitor
+2024-04-04 19:52:20,209 INFO    SystemMonitor:60326 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-04 19:52:20,209 INFO    SystemMonitor:60326 [interfaces.py:start():190] Started cpu monitoring
+2024-04-04 19:52:20,209 INFO    SystemMonitor:60326 [interfaces.py:start():190] Started disk monitoring
+2024-04-04 19:52:20,211 INFO    SystemMonitor:60326 [interfaces.py:start():190] Started gpuapple monitoring
+2024-04-04 19:52:20,212 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-04 19:52:20,214 INFO    SystemMonitor:60326 [interfaces.py:start():190] Started memory monitoring
+2024-04-04 19:52:20,214 INFO    SystemMonitor:60326 [interfaces.py:start():190] Started network monitoring
+2024-04-04 19:52:20,473 DEBUG   SenderThread:60326 [sender.py:send():379] send: telemetry
+2024-04-04 19:52:20,473 DEBUG   SenderThread:60326 [sender.py:send():379] send: exit
+2024-04-04 19:52:20,473 INFO    SenderThread:60326 [sender.py:send_exit():586] handling exit code: 0
+2024-04-04 19:52:20,474 INFO    SenderThread:60326 [sender.py:send_exit():588] handling runtime: 2
+2024-04-04 19:52:20,474 INFO    SenderThread:60326 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-04 19:52:20,474 INFO    SenderThread:60326 [sender.py:send_exit():594] send defer
+2024-04-04 19:52:20,475 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: defer
+2024-04-04 19:52:20,475 INFO    HandlerThread:60326 [handler.py:handle_request_defer():172] handle defer: 0
+2024-04-04 19:52:20,475 DEBUG   SenderThread:60326 [sender.py:send_request():406] send_request: defer
+2024-04-04 19:52:20,475 INFO    SenderThread:60326 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-04-04 19:52:20,475 INFO    SenderThread:60326 [sender.py:transition_state():614] send defer: 1
+2024-04-04 19:52:20,475 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: defer
+2024-04-04 19:52:20,475 INFO    HandlerThread:60326 [handler.py:handle_request_defer():172] handle defer: 1
+2024-04-04 19:52:20,475 DEBUG   SenderThread:60326 [sender.py:send_request():406] send_request: defer
+2024-04-04 19:52:20,475 INFO    SenderThread:60326 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-04-04 19:52:20,475 INFO    SenderThread:60326 [sender.py:transition_state():614] send defer: 2
+2024-04-04 19:52:20,475 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: defer
+2024-04-04 19:52:20,475 INFO    HandlerThread:60326 [handler.py:handle_request_defer():172] handle defer: 2
+2024-04-04 19:52:20,475 INFO    HandlerThread:60326 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-04 19:52:20,475 INFO    HandlerThread:60326 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-04 19:52:20,475 DEBUG   SystemMonitor:60326 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-04 19:52:20,475 INFO    HandlerThread:60326 [interfaces.py:finish():202] Joined disk monitor
+2024-04-04 19:52:20,475 DEBUG   SystemMonitor:60326 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-04 19:52:20,476 DEBUG   SystemMonitor:60326 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-04 19:52:20,819 INFO    Thread-37 :60326 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/Pracx/MMRO/MMRO-neoclassic/homework/HW2/wandb/run-20240404_195203-wx7d0hi1/files/wandb-summary.json
+2024-04-04 19:52:21,252 INFO    HandlerThread:60326 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-04-04 19:52:21,252 INFO    HandlerThread:60326 [interfaces.py:finish():202] Joined memory monitor
+2024-04-04 19:52:21,252 INFO    HandlerThread:60326 [interfaces.py:finish():202] Joined network monitor
+2024-04-04 19:52:21,253 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-04 19:52:21,253 DEBUG   SenderThread:60326 [sender.py:send_request():406] send_request: defer
+2024-04-04 19:52:21,253 INFO    SenderThread:60326 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-04-04 19:52:21,253 INFO    SenderThread:60326 [sender.py:transition_state():614] send defer: 3
+2024-04-04 19:52:21,253 DEBUG   SenderThread:60326 [sender.py:send():379] send: stats
+2024-04-04 19:52:21,253 DEBUG   SenderThread:60326 [sender.py:send_request():406] send_request: poll_exit
+2024-04-04 19:52:21,253 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: defer
+2024-04-04 19:52:21,253 INFO    HandlerThread:60326 [handler.py:handle_request_defer():172] handle defer: 3
+2024-04-04 19:52:21,253 DEBUG   SenderThread:60326 [sender.py:send_request():406] send_request: defer
+2024-04-04 19:52:21,253 INFO    SenderThread:60326 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-04-04 19:52:21,253 INFO    SenderThread:60326 [sender.py:transition_state():614] send defer: 4
+2024-04-04 19:52:21,253 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: defer
+2024-04-04 19:52:21,253 INFO    HandlerThread:60326 [handler.py:handle_request_defer():172] handle defer: 4
+2024-04-04 19:52:21,254 DEBUG   SenderThread:60326 [sender.py:send_request():406] send_request: defer
+2024-04-04 19:52:21,254 INFO    SenderThread:60326 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-04-04 19:52:21,254 INFO    SenderThread:60326 [sender.py:transition_state():614] send defer: 5
+2024-04-04 19:52:21,254 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: defer
+2024-04-04 19:52:21,254 INFO    HandlerThread:60326 [handler.py:handle_request_defer():172] handle defer: 5
+2024-04-04 19:52:21,254 DEBUG   SenderThread:60326 [sender.py:send():379] send: summary
+2024-04-04 19:52:21,254 INFO    SenderThread:60326 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-04 19:52:21,254 DEBUG   SenderThread:60326 [sender.py:send_request():406] send_request: defer
+2024-04-04 19:52:21,254 INFO    SenderThread:60326 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-04-04 19:52:21,254 INFO    SenderThread:60326 [sender.py:transition_state():614] send defer: 6
+2024-04-04 19:52:21,254 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: defer
+2024-04-04 19:52:21,254 INFO    HandlerThread:60326 [handler.py:handle_request_defer():172] handle defer: 6
+2024-04-04 19:52:21,254 DEBUG   SenderThread:60326 [sender.py:send_request():406] send_request: defer
+2024-04-04 19:52:21,254 INFO    SenderThread:60326 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-04-04 19:52:21,256 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: status_report
+2024-04-04 19:52:21,553 INFO    SenderThread:60326 [sender.py:transition_state():614] send defer: 7
+2024-04-04 19:52:21,553 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: defer
+2024-04-04 19:52:21,553 INFO    HandlerThread:60326 [handler.py:handle_request_defer():172] handle defer: 7
+2024-04-04 19:52:21,553 DEBUG   SenderThread:60326 [sender.py:send_request():406] send_request: defer
+2024-04-04 19:52:21,553 INFO    SenderThread:60326 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-04-04 19:52:21,756 INFO    SenderThread:60326 [sender.py:transition_state():614] send defer: 8
+2024-04-04 19:52:21,757 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: defer
+2024-04-04 19:52:21,757 INFO    HandlerThread:60326 [handler.py:handle_request_defer():172] handle defer: 8
+2024-04-04 19:52:21,757 DEBUG   SenderThread:60326 [sender.py:send_request():406] send_request: defer
+2024-04-04 19:52:21,757 INFO    SenderThread:60326 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-04-04 19:52:21,757 INFO    SenderThread:60326 [job_builder.py:build():318] Attempting to build job artifact
+2024-04-04 19:52:21,757 INFO    SenderThread:60326 [job_builder.py:_get_source_type():466] no source found
+2024-04-04 19:52:21,757 INFO    SenderThread:60326 [sender.py:transition_state():614] send defer: 9
+2024-04-04 19:52:21,757 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: defer
+2024-04-04 19:52:21,757 INFO    HandlerThread:60326 [handler.py:handle_request_defer():172] handle defer: 9
+2024-04-04 19:52:21,757 DEBUG   SenderThread:60326 [sender.py:send_request():406] send_request: defer
+2024-04-04 19:52:21,757 INFO    SenderThread:60326 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-04-04 19:52:21,757 INFO    SenderThread:60326 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-04 19:52:21,819 INFO    SenderThread:60326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/Pracx/MMRO/MMRO-neoclassic/homework/HW2/wandb/run-20240404_195203-wx7d0hi1/files/config.yaml
+2024-04-04 19:52:21,819 INFO    SenderThread:60326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/Pracx/MMRO/MMRO-neoclassic/homework/HW2/wandb/run-20240404_195203-wx7d0hi1/files/wandb-summary.json
+2024-04-04 19:52:21,819 INFO    SenderThread:60326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/Pracx/MMRO/MMRO-neoclassic/homework/HW2/wandb/run-20240404_195203-wx7d0hi1/files/output.log
+2024-04-04 19:52:21,820 INFO    SenderThread:60326 [dir_watcher.py:finish():388] scan: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/Pracx/MMRO/MMRO-neoclassic/homework/HW2/wandb/run-20240404_195203-wx7d0hi1/files
+2024-04-04 19:52:21,820 INFO    SenderThread:60326 [dir_watcher.py:finish():402] scan save: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/Pracx/MMRO/MMRO-neoclassic/homework/HW2/wandb/run-20240404_195203-wx7d0hi1/files/requirements.txt requirements.txt
+2024-04-04 19:52:21,820 INFO    SenderThread:60326 [dir_watcher.py:finish():402] scan save: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/Pracx/MMRO/MMRO-neoclassic/homework/HW2/wandb/run-20240404_195203-wx7d0hi1/files/output.log output.log
+2024-04-04 19:52:21,821 INFO    SenderThread:60326 [dir_watcher.py:finish():402] scan save: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/Pracx/MMRO/MMRO-neoclassic/homework/HW2/wandb/run-20240404_195203-wx7d0hi1/files/config.yaml config.yaml
+2024-04-04 19:52:21,821 INFO    SenderThread:60326 [dir_watcher.py:finish():402] scan save: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/Pracx/MMRO/MMRO-neoclassic/homework/HW2/wandb/run-20240404_195203-wx7d0hi1/files/wandb-summary.json wandb-summary.json
+2024-04-04 19:52:21,822 INFO    SenderThread:60326 [dir_watcher.py:finish():402] scan save: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/Pracx/MMRO/MMRO-neoclassic/homework/HW2/wandb/run-20240404_195203-wx7d0hi1/files/wandb-metadata.json wandb-metadata.json
+2024-04-04 19:52:21,823 INFO    SenderThread:60326 [sender.py:transition_state():614] send defer: 10
+2024-04-04 19:52:21,824 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: defer
+2024-04-04 19:52:21,824 INFO    HandlerThread:60326 [handler.py:handle_request_defer():172] handle defer: 10
+2024-04-04 19:52:21,824 DEBUG   SenderThread:60326 [sender.py:send_request():406] send_request: defer
+2024-04-04 19:52:21,824 INFO    SenderThread:60326 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-04-04 19:52:21,824 INFO    SenderThread:60326 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-04 19:52:22,227 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-04 19:52:22,227 DEBUG   SenderThread:60326 [sender.py:send_request():406] send_request: poll_exit
+2024-04-04 19:52:22,410 INFO    wandb-upload_1:60326 [upload_job.py:push():131] Uploaded file /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/Pracx/MMRO/MMRO-neoclassic/homework/HW2/wandb/run-20240404_195203-wx7d0hi1/files/output.log
+2024-04-04 19:52:22,547 INFO    wandb-upload_0:60326 [upload_job.py:push():131] Uploaded file /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/Pracx/MMRO/MMRO-neoclassic/homework/HW2/wandb/run-20240404_195203-wx7d0hi1/files/requirements.txt
+2024-04-04 19:52:22,703 INFO    wandb-upload_2:60326 [upload_job.py:push():131] Uploaded file /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/Pracx/MMRO/MMRO-neoclassic/homework/HW2/wandb/run-20240404_195203-wx7d0hi1/files/config.yaml
+2024-04-04 19:52:22,703 INFO    wandb-upload_3:60326 [upload_job.py:push():131] Uploaded file /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/Pracx/MMRO/MMRO-neoclassic/homework/HW2/wandb/run-20240404_195203-wx7d0hi1/files/wandb-summary.json
+2024-04-04 19:52:22,908 INFO    Thread-36 (_thread_body):60326 [sender.py:transition_state():614] send defer: 11
+2024-04-04 19:52:22,908 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: defer
+2024-04-04 19:52:22,908 INFO    HandlerThread:60326 [handler.py:handle_request_defer():172] handle defer: 11
+2024-04-04 19:52:22,909 DEBUG   SenderThread:60326 [sender.py:send_request():406] send_request: defer
+2024-04-04 19:52:22,909 INFO    SenderThread:60326 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-04-04 19:52:22,909 INFO    SenderThread:60326 [file_pusher.py:join():178] waiting for file pusher
+2024-04-04 19:52:22,909 INFO    SenderThread:60326 [sender.py:transition_state():614] send defer: 12
+2024-04-04 19:52:22,909 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: defer
+2024-04-04 19:52:22,909 INFO    HandlerThread:60326 [handler.py:handle_request_defer():172] handle defer: 12
+2024-04-04 19:52:22,909 DEBUG   SenderThread:60326 [sender.py:send_request():406] send_request: defer
+2024-04-04 19:52:22,909 INFO    SenderThread:60326 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-04-04 19:52:22,909 INFO    SenderThread:60326 [file_stream.py:finish():614] file stream finish called
+2024-04-04 19:52:23,234 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-04 19:52:23,253 INFO    SenderThread:60326 [file_stream.py:finish():618] file stream finish is done
+2024-04-04 19:52:23,253 INFO    SenderThread:60326 [sender.py:transition_state():614] send defer: 13
+2024-04-04 19:52:23,253 DEBUG   SenderThread:60326 [sender.py:send_request():406] send_request: poll_exit
+2024-04-04 19:52:23,253 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: defer
+2024-04-04 19:52:23,254 INFO    HandlerThread:60326 [handler.py:handle_request_defer():172] handle defer: 13
+2024-04-04 19:52:23,254 DEBUG   SenderThread:60326 [sender.py:send_request():406] send_request: defer
+2024-04-04 19:52:23,254 INFO    SenderThread:60326 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-04-04 19:52:23,254 INFO    SenderThread:60326 [sender.py:transition_state():614] send defer: 14
+2024-04-04 19:52:23,254 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: defer
+2024-04-04 19:52:23,254 INFO    HandlerThread:60326 [handler.py:handle_request_defer():172] handle defer: 14
+2024-04-04 19:52:23,255 DEBUG   SenderThread:60326 [sender.py:send():379] send: final
+2024-04-04 19:52:23,255 DEBUG   SenderThread:60326 [sender.py:send():379] send: footer
+2024-04-04 19:52:23,255 DEBUG   SenderThread:60326 [sender.py:send_request():406] send_request: defer
+2024-04-04 19:52:23,255 INFO    SenderThread:60326 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-04-04 19:52:23,256 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-04 19:52:23,256 DEBUG   SenderThread:60326 [sender.py:send_request():406] send_request: poll_exit
+2024-04-04 19:52:23,256 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-04 19:52:23,257 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: server_info
+2024-04-04 19:52:23,257 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: get_summary
+2024-04-04 19:52:23,257 DEBUG   SenderThread:60326 [sender.py:send_request():406] send_request: server_info
+2024-04-04 19:52:23,259 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: sampled_history
+2024-04-04 19:52:23,491 DEBUG   HandlerThread:60326 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-04 19:52:23,491 INFO    HandlerThread:60326 [handler.py:finish():866] shutting down handler
+2024-04-04 19:52:24,263 INFO    WriterThread:60326 [datastore.py:close():296] close: /Users/artemon/Library/Mobile Documents/com~apple~CloudDocs/Programming/python_projects/Pracx/MMRO/MMRO-neoclassic/homework/HW2/wandb/run-20240404_195203-wx7d0hi1/run-wx7d0hi1.wandb
+2024-04-04 19:52:24,492 INFO    SenderThread:60326 [sender.py:finish():1546] shutting down sender
+2024-04-04 19:52:24,493 INFO    SenderThread:60326 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-04 19:52:24,493 INFO    SenderThread:60326 [file_pusher.py:join():178] waiting for file pusher
